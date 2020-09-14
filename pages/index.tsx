@@ -1,15 +1,19 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
+import Button from "../components/Button";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <>
     <h1>Hello Next.js 👋</h1>
     <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
+      This is a paragraf with a{" "}
+      <Button $padding="1em" $borderRadius="4px">
+        button
+      </Button>
     </p>
-  </Layout>
+    <p>
+      The core premise of stilren is adding "all" css properties as first level
+      props in <b>every</b> component without any extra overhead.
+    </p>
+  </>
 );
 
 export default IndexPage;
