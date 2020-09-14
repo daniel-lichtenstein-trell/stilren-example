@@ -8,9 +8,14 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@types/styletron-engine-atomic": "^1.1.0",
+    "@types/styletron-react": "^5.0.2",
     "next": "latest",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "stilren": "^0.2.7",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
