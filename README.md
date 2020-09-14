@@ -2,12 +2,14 @@
 
 This is a really simple project that shows the usage of Next.js with TypeScript and Stilren.
 
-Stilren is a wrapper around the css-in-js lib styletron with the difference being how that functionality is exposed to the developer. Stilren basically adds css properties as top level props. A little hacky approach, but the dev UX is really something.
+Stilren is a wrapper around the css-in-js lib styletron with the difference being how that functionality is exposed to the developer. Stilren basically adds css properties as top level props. A little hacky approach, but the developer UX is really something. Since it works with a rich typescript definition. Most of the new props are typed properly. Giving the developer great documentation with autocompletion for instance (given IDE support of course).
 
 ```
 <button $backgroundColor="red" $opacityHover="0.5">Red button</button>
 
 // translates to roughly:
+
+<button className="button1 button2">Red button</button>
 
 .button1 {
   backgroundColor: red;
